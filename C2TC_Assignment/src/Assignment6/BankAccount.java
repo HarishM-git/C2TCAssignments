@@ -8,6 +8,7 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    
     public void deposit(double amount) throws InvalidAmountException {
         if (amount <= 0) {
             throw new InvalidAmountException("Deposit amount must be greater than zero.");
